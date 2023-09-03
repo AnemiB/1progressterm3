@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/tickets.css">
+    
+
+    <title>Empires Cruise: Trips</title>
+  </head>
+  <body>
+   
+    <nav class="navbar fixed-top">
+        <div class="logo">
+          <img src="/assets/LogoCruise.png" alt="Logo" height="50">
+      </div>
+      
+        <div class="container">
+          
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Weather</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="trips.html">Trips</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="tickets.html">Purchase Tickets</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="hero-image">
+    </div>
+     
+<div class="headd"><h1>Tickets</h1></div>
+
+    <table id="tab">
+
+      <tr><th colspan="6">Your Purchases</th></tr>
+      <tr>
+        <th>Trip Image</th>
+        <th>Trip</th>
+        <th>Trip Code</th>
+        <th>Ticket Quantity</th>
+        <th>Remove</th>
+        <th><div class="j">Remove all</div></th>
+      </tr>
+
+      <tr value="remove" class="remove1">
+        <th><img src="/assets/georgy-trofimov-xEJoSsDCnR8-unsplash.jpg" width="200px" height="200px"></th>
+        <th><p>Ultra Package</p>
+        <p class="price">1340</p></th>
+        <th>364575354</th>
+        <th>+ 1 -</th>
+        <th>
+          <div class="a">-</div>
+        </th>
+      </tr>
+      <tr value="remove" class="remove2">
+        <th><img src="/assets/christian-lambert-cu_RZWQKKOc-unsplash.jpg" width="200px" height="200px"></th>
+        <th><p>Super Dip</p>
+          <p class="price">2300</p></th>
+          <th>4576474575</th>
+        <th>+ 1 -</th>
+        <th>
+          <div class="b">-</div>
+        </th>
+      </tr>
+      <tr value="remove" class="remove3">
+        <th><img src="/assets/alonso-reyes-Ca4XZM3xABg-unsplash.jpg" width="200px" height="200px"></th>
+        <th><p>Mega Splash</p>
+          <p class="price">3500</p></th>
+          <th>56856865756</th>
+        <th>+ 1 -</th>
+        <th>
+          <div class="c">-</div>
+        </th>
+      </tr>
+      <tr value="remove" class="remove4">
+        <th><img src="/assets/adam-gonzales-A2MkCqYrSUw-unsplash.jpg" width="200px" height="200px"></th>
+        <th><p>Sweet Summer</p>
+          <p class="price">2530</p></th>
+          <th>77688678</th>
+        <th>+ 1 -</th>
+        <th>
+          <div class="d">-</div>
+        </th>
+      </tr>
+      <tr value="remove" class="remove5">
+        <th><img src="/assets/alonso-reyes-8NWFh8_i9Ug-unsplash.jpg" width="200px" height="200px"></th>
+        <th><p>Fun Run</p>
+          <p class="price">1400</p></th>
+          <th>13151</th>
+        <th>+ 1 -</th>
+        <th>
+          <div class="e">-</div>
+        </th>
+      </tr>
+      <tr value="remove" class="remove6">
+        <th><img src="/assets/sheila-jellison-shBk33gUv3Q-unsplash.jpg" width="200px" height="200px"></th>
+        <th><p>Dive Dip</p>
+          <p class="price">2450</p></th>
+          <th>695757</th>
+        <th>+ 1 -</th>
+        <th>
+          <div class="f">-</div>
+        </th>
+      </tr>
+      <tr value="remove" class="remove7">
+        <th><img src="/assets/georgy-trofimov-xEJoSsDCnR8-unsplash.jpg" width="200px" height="200px"></th>
+        <th><p>Blistering Heat</p>
+          <p class="price">1650</p></th>
+          <th>645645</th>
+        <th>+ 1 -</th>
+        <th>
+          <div class="g">-</div>
+        </th>
+      </tr>
+      <tr value="remove" class="remove8">
+        <th><img src="/assets/alonso-reyes-Ca4XZM3xABg-unsplash.jpg" width="200px" height="200px"></th>
+        <th><p>Super Splash</p>
+          <p class="price">5340</p></th>
+          <th>1532346</th>
+        <th>+ 1 -</th>
+        <th>
+          <div class="h">-</div>
+        </th>
+      </tr>
+      <tr value="remove" class="remove9">
+        <th><img src="/assets/christian-lambert-cu_RZWQKKOc-unsplash.jpg" width="200px" height="200px"></th>
+        <th><p>Extra Stride</p>
+          <p class="price">3500</p></th>
+          <th>2236346</th>
+        <th>+ 1 -</th>
+        <th>
+          <div class="i">-</div>
+        </th>
+      </tr>
+    
+          </table>
+          <div class="amount" id="totalAmount"><h1>Total Amount: R 0</h1></div>
+
+          <button id="purchaseButton">Purchase</button>
+
+          <div id="popup">
+            <p>Purchase Successful</p>
+             <p>Thank you for the purchase! Please enjoy your trip!</p>
+          </div>
+
+
+          
+
+          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="/js/tickets.js"></script>
+  </body>
+  <footer>
+    <h5>Empires Cruise, where we aspire to make your dream a reality</h5>
+    <p>Purchase tickets<a href="/tickets.html"> now </a>!</p>
+  </footer>
+</html>
