@@ -1,5 +1,5 @@
 
-  // When document loads
+
   
   $(document).ready(function(){
   
@@ -10,10 +10,10 @@
   
   for (i = 0; i < acc.length; i++) {
     acc[i].addEventListener("click", function() {
-      /* Toggle  adding and removing the active class */
+      
       this.classList.toggle("active");
   
-      /* Toggle hiding and showing active panel */
+     
       var panel = this.nextElementSibling;
       if (panel.style.display === "block") {
         panel.style.display = "none";
@@ -40,7 +40,7 @@
   
   
   $(document).ready(function() {
-    let temp; // Declare the temp variable
+    let temp; 
   
     $.ajax({
       type: "GET",
@@ -48,7 +48,7 @@
       success: function(data) {
         temp = data;
         console.log(temp);
-        updateWeatherTemp(); // Call a function to update the temperature
+        updateWeatherTemp(); 
       },
       error: function(xhr, status, error) {
         console.log("Error:", error);
