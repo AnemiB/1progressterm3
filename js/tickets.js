@@ -95,12 +95,12 @@ removeButtons.forEach(function (button) {
 calculateTotal();
 
 
-// Function to display the pop-up when the button is clicked
+
 document.getElementById("purchaseButton").addEventListener("click", function() {
   var popup = document.getElementById("popup");
   popup.style.display = "block";
 
-  // Automatically hide the pop-up after 3 seconds (adjust as needed)
+ 
   setTimeout(function() {
     popup.style.display = "none";
   }, 3000);
